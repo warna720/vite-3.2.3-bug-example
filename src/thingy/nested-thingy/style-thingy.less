@@ -1,0 +1,15 @@
+.theme_mixin() {
+  @import (multiple) "font/icon-font";
+}
+
+.dark {
+  .theme_mixin();
+}
+
+.light {
+  .theme_mixin();
+
+  .sysbar, .syspanel {
+    .theme_mixin();
+  }
+}
